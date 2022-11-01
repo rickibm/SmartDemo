@@ -1,9 +1,13 @@
-{
-  "kty": "EC",
-  "kid": "n4Ezx5DTf5ciNSlDwPUAFRp0z-dOxt872dVLvNpzrOg",
-  "use": "sig",
-  "alg": "ES256",
-  "crv": "P-256",
-  "x": "4F6YA668UgbVoElmlhpwhJBdqxucWm1f4gMsgDi4cg0",
-  "y": "i-F1Sn8FPzHvfUzkZjG1Ad-tjwEpa4J1n8qO3d9uEkw"
+{ 
+	"keys": [
+		{
+		  "kty": "EC",
+		  "kid": "n4Ezx5DTf5ciNSlDwPUAFRp0z-dOxt872dVLvNpzrOg",
+		  "use": "sig",
+		  "alg": "ES256",
+		  "crv": "P-256",
+		  "x": "4F6YA668UgbVoElmlhpwhJBdqxucWm1f4gMsgDi4cg0",
+		  "y": "i-F1Sn8FPzHvfUzkZjG1Ad-tjwEpa4J1n8qO3d9uEkw"
+		}
+	]
 }
