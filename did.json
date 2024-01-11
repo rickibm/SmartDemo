@@ -1,21 +1,24 @@
 {
-  "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main",
-  "created": "2022-11-02T14:07:00.429Z",
-  "updated": "2022-11-02T14:07:00.429Z",
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/ed25519-2020/v1"
+    "https://w3id.org/security/v2",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
   ],
-  "service": [],
+  "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo",
   "verificationMethod": [
     {
-      "type": "Ed25519VerificationKey2020",
-      "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#heBpDU8Ge",
-      "publicKeyMultibase": "z6MkkAQ19nBp5RbLzKE4D2zPUKYVYkc9zoo1y4AcYCgoMbfU",
-      "controller": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main"
+      "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo#04ea429906828b02bfb522fe7e3be32cf20e99d7487e0e81d01da0168fb19def23a7796eccd0133d894a5e23fc45bc269440bd760ed6efa80e730ebba16c901a7b",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:raw.githubusercontent.com:rickibm:SmartDemo",
+      "publicKeyHex": "04ea429906828b02bfb522fe7e3be32cf20e99d7487e0e81d01da0168fb19def23a7796eccd0133d894a5e23fc45bc269440bd760ed6efa80e730ebba16c901a7b"
     }
   ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:rickibm:SmartDemo#04ea429906828b02bfb522fe7e3be32cf20e99d7487e0e81d01da0168fb19def23a7796eccd0133d894a5e23fc45bc269440bd760ed6efa80e730ebba16c901a7b"
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:rickibm:SmartDemo#04ea429906828b02bfb522fe7e3be32cf20e99d7487e0e81d01da0168fb19def23a7796eccd0133d894a5e23fc45bc269440bd760ed6efa80e730ebba16c901a7b"
+  ],
   "keyAgreement": [],
-  "assertionMethod": [],
-  "authentication": []
+  "service": []
 }
