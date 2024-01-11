@@ -1,5 +1,5 @@
 {
-  "id": "did:web:github.com:rickibm:SmartDemo:blob:main",
+  "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main",
   "created": "2022-11-02T14:07:00.429Z",
   "updated": "2022-11-02T14:07:00.429Z",
   "@context": [
@@ -10,9 +10,9 @@
   "verificationMethod": [
     {
       "type": "Ed25519VerificationKey2020",
-      "id": "did:web:github.com:rickibm:SmartDemo:blob:main#heBpDU8Ge",
+      "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#heBpDU8Ge",
       "publicKeyMultibase": "z6MkkAQ19nBp5RbLzKE4D2zPUKYVYkc9zoo1y4AcYCgoMbfU",
-      "controller": "did:web:github.com:rickibm:SmartDemo:blob:main"
+      "controller": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main"
     }
   ],
   "keyAgreement": [],
