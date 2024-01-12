@@ -1,1 +1,35 @@
-{"@context":["https://www.w3.org/ns/did/v1","https://w3id.org/security/v2","https://w3id.org/security/suites/secp256k1recovery-2020/v2"],"id":"did:web:raw.githubusercontent.com:rickibm:SmartDemo:main","verificationMethod":[{"id":"did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52","type":"EcdsaSecp256k1VerificationKey2019","controller":"did:web:raw.githubusercontent.com:rickibm:SmartDemo:main","publicKeyHex":"0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52"}],"authentication":["did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52"],"assertionMethod":["did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52"],"keyAgreement":[],"service":[]}
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2",
+    "https://w3id.org/security/suites/ed25519-2018/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main",
+      "publicKeyHex": "0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52"
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#6625529d4d75d0b20a7e5c2ef89907550cb28fda55015ed94bc32dc9bdb36516",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main",
+      "publicKeyBase58": "7sjbRmEwUMpLPrjX6qjLz8AtdCVEZ7v24DFuDWsopTMo"
+    }
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52",
+    "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#6625529d4d75d0b20a7e5c2ef89907550cb28fda55015ed94bc32dc9bdb36516"
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#0463ae4f4a714ba0d66fb897760c6a1b780bcdbf34a5b91fe7192bfe4e16da03881d4023056d8e29767478a7a635d42819e498fa38d8fed3c8739f28e52f654a52",
+    "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#6625529d4d75d0b20a7e5c2ef89907550cb28fda55015ed94bc32dc9bdb36516"
+  ],
+  "keyAgreement": [
+    "did:web:raw.githubusercontent.com:rickibm:SmartDemo:main#6625529d4d75d0b20a7e5c2ef89907550cb28fda55015ed94bc32dc9bdb36516"
+  ],
+  "service": []
+}
