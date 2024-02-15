@@ -1,23 +1,23 @@
 {
-        directory: "https://raw.githubusercontent.com/rickibm/SmartDemo/main/directory.json",
-        time: "2022-02-28T22:38:31Z",
-        issuerInfo: [
-            {
-                issuer: {
-                    iss: 'https://raw.githubusercontent.com/rickibm/SmartDemo/main',
-                    name: 'SmartDemo Issuer'
-                },
-                keys: [
-                    {
-                        "kty": "EC",
-                        "kid": "n4Ezx5DTf5ciNSlDwPUAFRp0z-dOxt872dVLvNpzrOg",
-                        "use": "sig",
-                        "alg": "ES256",
-                        "crv": "P-256",
-                        "x": "4F6YA668UgbVoElmlhpwhJBdqxucWm1f4gMsgDi4cg0",
-                        "y": "i-F1Sn8FPzHvfUzkZjG1Ad-tjwEpa4J1n8qO3d9uEkw"
-                    }
-                ]
-            }
-        ]
-    };
+  "directory": "https://raw.githubusercontent.com/rickibm/SmartDemo/main/directory.json",
+  "time": "2022-02-28T22:38:31Z",
+  "issuerInfo": [
+    {
+      "issuer": {
+        "iss": "https://raw.githubusercontent.com/rickibm/SmartDemo/main",
+        "name": "SmartDemo Issuer"
+      },
+      "keys": [
+        {
+          "kty": "EC",
+          "kid": "n4Ezx5DTf5ciNSlDwPUAFRp0z-dOxt872dVLvNpzrOg",
+          "use": "sig",
+          "alg": "ES256",
+          "crv": "P-256",
+          "x": "4F6YA668UgbVoElmlhpwhJBdqxucWm1f4gMsgDi4cg0",
+          "y": "i-F1Sn8FPzHvfUzkZjG1Ad-tjwEpa4J1n8qO3d9uEkw"
+        }
+      ]
+    }
+  ]
+}
