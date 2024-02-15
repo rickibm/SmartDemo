@@ -5,7 +5,8 @@
     {
       "issuer": {
         "iss": "https://raw.githubusercontent.com/rickibm/SmartDemo/main",
-        "name": "SmartDemo Issuer"
+        "name": "SmartDemo Issuer",
+        "website": "https://localhost"
       },
       "keys": [
         {
@@ -17,7 +18,8 @@
           "x": "4F6YA668UgbVoElmlhpwhJBdqxucWm1f4gMsgDi4cg0",
           "y": "i-F1Sn8FPzHvfUzkZjG1Ad-tjwEpa4J1n8qO3d9uEkw"
         }
-      ]
+      ],
+      "lastRetrieved": "2022-02-28T22:38:31Z",
     }
   ]
 }
